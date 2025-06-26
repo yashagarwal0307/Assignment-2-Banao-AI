@@ -1,8 +1,7 @@
-Of course! Here’s a **README.md** you can use for this project. It clearly describes the purpose, setup, usage, and architecture of the code you provided:
+
 
 ---
 
-# Video Recommendation Assignment
 
 This project fine-tunes a **DistilBERT** transformer on the IMDb sentiment dataset to classify movie reviews as **positive** or **negative**.
 Additionally, it integrates a lightweight **LangGraph**-based state machine to route predictions based on confidence.
@@ -86,10 +85,6 @@ If using Google Colab:
 * Logging and evaluation happen every epoch.
 * Check your `tensorboard` for training progress:
 
-```bash
-tensorboard --logdir ./logs
-```
 
----
 
 
